@@ -1,4 +1,4 @@
-bindAddr = "0.0.0.0"
+bindAddr = "111.173.105.101"
 bindPort = 7000
 #kcpBindPort = 7000
 quicBindPort = 7000
@@ -12,8 +12,8 @@ transport.tcpMuxKeepaliveInterval = 60
 transport.tcpKeepalive = 7200
 transport.tls.force = false
 
-webServer.addr = "0.0.0.0"
-webServer.port = 7500
+webServer.addr = "111.173.105.101"
+webServer.port = 7001
 webServer.user = "admin"
 webServer.password = "admin"
 webServer.pprofEnable = false
@@ -24,7 +24,7 @@ log.maxDays = 3
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "123"
 
 allowPorts = [
   { start = 10001, end = 50000 }
